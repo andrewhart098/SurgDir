@@ -1,0 +1,88 @@
+<form class="form-horizontal">
+<fieldset>
+
+<!-- Form Name -->
+<legend>Form Name</legend>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">Doctor Name</label>  
+  <div class="col-md-5">
+  <input id="textinput" name="textinput" type="text" placeholder="Doctor Name" class="form-control input-md" required="">
+  <span class="help-block">Please fill in the doctor</span>  
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="hospital">Hospital Name</label>  
+  <div class="col-md-5">
+  <input id="hospital" name="hospital" type="text" placeholder="Hospital Name" class="form-control input-md">
+  <span class="help-block">Please fill in the hospital's name</span>  
+  </div>
+</div>
+
+<!-- Select Basic -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="Insurance">Insurance</label>
+  <div class="col-md-5">
+    <select id="Insurance" name="Insurance" class="form-control">
+      <option value="1">Company A</option>
+      <option value="2">Company B</option>
+    </select>
+  </div>
+</div>
+
+<!-- Prepended text-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="Cost">Cost</label>
+  <div class="col-md-5">
+    <div class="input-group">
+      <span class="input-group-addon">$</span>
+      <input id="Cost" name="Cost" class="form-control" placeholder="Dollar Amount" type="text" required="">
+    </div>
+    
+  </div>
+</div>
+
+<!-- Multiple Checkboxes (inline) -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="Choice Of Plan">Package Option</label>
+  <div class="col-md-4">
+    <label class="checkbox-inline" for="Choice Of Plan-0">
+      <input type="checkbox" name="Choice Of Plan" id="Choice Of Plan-0" value="A">
+      A
+    </label>
+    <label class="checkbox-inline" for="Choice Of Plan-1">
+      <input type="checkbox" name="Choice Of Plan" id="Choice Of Plan-1" value="B">
+      B
+    </label>
+    <label class="checkbox-inline" for="Choice Of Plan-2">
+      <input type="checkbox" name="Choice Of Plan" id="Choice Of Plan-2" value="C">
+      C
+    </label>
+    <label class="checkbox-inline" for="Choice Of Plan-3">
+      <input type="checkbox" name="Choice Of Plan" id="Choice Of Plan-3" value="D">
+      D
+    </label>
+  </div>
+</div>
+
+<!-- Textarea -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="Notes">Additional Notes</label>
+  <div class="col-md-4">                     
+    <textarea class="form-control" id="Notes" name="Notes">Additional Notes</textarea>
+  </div>
+</div>
+
+<!-- Button -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="submit"></label>
+  <div class="col-md-4">
+    <button id="submit" name="submit" class="btn btn-success">Save</button>
+  </div>
+</div>
+
+</fieldset>
+</form>
